@@ -17,11 +17,11 @@ function App() {
       <Row className="min-vh-100 align-items-center">
         <Col>
           <Image src={logo} />
-          <h1 className="text-danger fw-bold mt-4">
+          <h1 className="text-danger fw-bold mt-3">
             Website <br /> under Construction
           </h1>
 
-          <p className="text-black-50">
+          <p className="text-muted">
             We are excited to announce that our new photography website is under
             construction! Stay tuned for updates on when the site will be up and
             running. In the meantime, follow us on social media for
@@ -39,7 +39,7 @@ function App() {
             </Button>
           </InputGroup>
         </Col>
-        <Col className="d-none d-lg-block ps-4">
+        <Col className="d-none d-lg-block">
           <Image src={sideImage} />
         </Col>
       </Row>

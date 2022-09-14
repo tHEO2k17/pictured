@@ -24,8 +24,6 @@
     "src"
   ],
   {
-    "files": [
-      "globals.d.ts"
-    ]
+    "files": ["globals.d.ts"]
   }
 }

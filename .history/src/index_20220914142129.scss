@@ -1,0 +1,23 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.input-group {
+  border: 1px solid #eee;
+  border-radius: 50px;
+  padding: 10px 10px 10px 20px;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.form-control {
+  border: unset;
+}
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: unset;
+  outline: 0;
+  box-shadow: unset;
+}

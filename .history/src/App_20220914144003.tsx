@@ -39,7 +39,7 @@ function App() {
             </Button>
           </InputGroup>
         </Col>
-        <Col className="d-none d-lg-block ps-4">
+        <Col className="d-none d-lg-block">
           <Image src={sideImage} />
         </Col>
       </Row>

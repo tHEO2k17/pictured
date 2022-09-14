@@ -1,0 +1,41 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.input-group {
+  // border: 1px solid #eee;
+  border-radius: 50px;
+  padding: 5px 5px 5px 20px;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: 20px;
+  border-radius: 50px;
+  font-size: .9em;
+  padding: 20px 40px 20px 40px ;
+}
+
+.form-control {
+  border: unset;
+}
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: unset;
+  outline: 0;
+  box-shadow: unset;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ddd;
+  font-size: .9rem;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ddd;
+  font-size: .9rem;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ddd;
+  font-size: .9rem;
+}
